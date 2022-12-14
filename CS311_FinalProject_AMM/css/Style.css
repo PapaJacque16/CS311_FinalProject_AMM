@@ -1,0 +1,74 @@
+﻿.body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    border: 2px;
+}
+
+H4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#input-div {
+    padding-top: 45px;
+    align-self: center;
+}
+
+.input-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#input {
+    padding-top: 4px;
+}
+
+#enter {
+    text-align: center;
+}
+
+#output-div {
+    padding: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+H2 {
+    color: white;
+    margin: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+#convert-btn {
+    font-size: 12px;
+    background-color: grey;
+    padding: 4px;
+    border-radius: 10px;
+    border: double;
+    margin-left: 40px;
+}
+
+span, #result {
+    text-decoration: underline;
+}
